@@ -15,11 +15,13 @@ whoami -> user name
 sudo -i -> root directory
 sudo yum install java-1.8.0-openjdk - install java 8
 alternatives --config java -> configure java version 
+
 2. create s3 bucket
 create a bucket
 upload or copy the jar.
 Copy the jar url -> https://lokiaws.s3.amazonaws.com/spring-boot-aws-exe.jar
-do wget https://lokiaws.s3.amazonaws.com/spring-boot-aws-exe.jar in the putty
+ 
+wget https://lokiaws.s3.amazonaws.com/spring-boot-aws-exe.jar in the putty
 
 install jar in putty
 java -jar spring-boot-aws-exe.jar
